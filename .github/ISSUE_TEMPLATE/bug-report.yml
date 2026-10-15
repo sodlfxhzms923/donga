@@ -1,0 +1,7 @@
+name: Bug Report
+description: 버그나오면 신고하세요
+body:
+  - type: textarea
+    attributes:
+      label: 버그 설명
+      description: 어떤 문제가 발생했나요?
