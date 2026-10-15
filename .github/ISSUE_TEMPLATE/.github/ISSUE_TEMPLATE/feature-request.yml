@@ -1,0 +1,31 @@
+name: Feature Request
+description: 새로운 기능을 제안하거나 추가 요청을 남깁니다.
+title: "[Feature] "
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        저희 프로젝트에 새로운 기능을 제안해 주셔서 감사합니다! 아래 양식을 작성해 주세요.
+  - type: textarea
+    attributes:
+      label: 제안하는 기능에 대한 설명
+      description: 어떤 기능인지, 왜 필요한지 명확하게 설명해 주세요.
+      placeholder: 예시) 도서 대출 연장 신청 버튼을 마이페이지에 추가하고 싶습니다.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 기대되는 효과 및 필요성
+      description: 이 기능이 추가되면 사용자나 프로젝트에 어떤 이점이 있는지 적어주세요.
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 우선순위 (Priority)
+      options:
+        - High (높음)
+        - Medium (중간)
+        - Low (낮음)
+    validations:
+      required: true
